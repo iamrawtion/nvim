@@ -1,0 +1,13 @@
+# Neovim cache/data
+*.log
+*.bak
+session/*
+undo/*
+swap/*
+tags
+.cache/
+lazy-lock.json  # optional: skip locking plugin versions
+
+# Optional secrets
+lua/secrets.lua
+
